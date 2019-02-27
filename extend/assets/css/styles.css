@@ -42,7 +42,7 @@ a:hover {
     margin: 25px;
 }
 
-.home {
+.about {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 24px;
@@ -54,27 +54,12 @@ a:hover {
     color: #91c6f7;
 }
 
-.about {
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    font-size: 24px;
-    position: fixed;
-    top: 60px;
-    right: 5px;
-    margin: 50px;
-    padding: 5px;
-}
-
-.about:hover {
-    color: #91c6f7;
-}
-
 .work {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 24px;
     position: fixed;
-    top: 120px;;
+    top: 50px;;
     right: 5px;
     margin: 50px;
     padding: 5px;
@@ -82,37 +67,4 @@ a:hover {
 
 .work:hover {
     color: #91c6f7;
-}
-
-#mail {
-    position: absolute;
-    bottom: 0;
-    left: 650px;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
-}
-
-#ig {
-    position: absolute;
-    bottom: 0;
-    left: 715px;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
-}
-
-#linkedin {
-    position: absolute;
-    bottom: 0;
-    right: 650px;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
 }

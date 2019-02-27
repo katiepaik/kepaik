@@ -51,6 +51,9 @@ a:hover {
     right: 5px;
     margin: 50px;
     padding: 5px;
+}
+
+.home:hover {
     color: #91c6f7;
 }
 
@@ -63,9 +66,6 @@ a:hover {
     right: 5px;
     margin: 50px;
     padding: 5px;
-}
-
-.about:hover {
     color: #91c6f7;
 }
 
@@ -82,37 +82,4 @@ a:hover {
 
 .work:hover {
     color: #91c6f7;
-}
-
-#mail {
-    position: absolute;
-    bottom: 0;
-    left: 650px;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
-}
-
-#ig {
-    position: absolute;
-    bottom: 0;
-    left: 715px;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
-}
-
-#linkedin {
-    position: absolute;
-    bottom: 0;
-    right: 650px;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
 }
