@@ -83,3 +83,58 @@ a:hover {
 .work:hover {
     color: #91c6f7;
 }
+
+.social {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -120px;
+}
+    
+#mail {
+    position: relative;
+    margin: 25px;
+    width: 30px;
+    height: auto;
+    opacity: 0.35;
+    filter: alpha(opacity=50);
+}
+
+#ig {
+    position: relative;
+    margin: 25px;
+    width: 30px;
+    height: auto;
+    opacity: 0.35;
+    filter: alpha(opacity=50);
+}
+
+#linkedin {
+    position: relative;
+    margin: 25px;
+    width: 30px;
+    height: auto;
+    opacity: 0.35;
+    filter: alpha(opacity=50);
+}
+
+#headshot {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left: 23%;
+    top: 25%;
+    -webkit-filter: opacity(90%);
+}
+
+.desc {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    position: absolute;
+    top: 510px;
+    left: 47%;
+    max-width: 450px;
+    margin-right: 50px;
+}

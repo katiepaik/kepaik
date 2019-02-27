@@ -84,10 +84,15 @@ a:hover {
     color: #91c6f7;
 }
 
-#mail {
+.social {
     position: absolute;
     bottom: 0;
-    left: 650px;
+    left: 50%;
+    margin-left: -120px;
+}
+
+#mail {
+    position: relative;
     margin: 25px;
     width: 30px;
     height: auto;
@@ -96,9 +101,7 @@ a:hover {
 }
 
 #ig {
-    position: absolute;
-    bottom: 0;
-    left: 715px;
+    position: relative;
     margin: 25px;
     width: 30px;
     height: auto;
@@ -107,9 +110,7 @@ a:hover {
 }
 
 #linkedin {
-    position: absolute;
-    bottom: 0;
-    right: 650px;
+    position: relative;
     margin: 25px;
     width: 30px;
     height: auto;
