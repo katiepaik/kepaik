@@ -21,10 +21,10 @@ a:hover {
 .name {
     font-family: 'Lora', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     position: fixed;
     top: 0;
-    left: 75px;
+    left: 65px;
     margin: 50px;
     padding: 5px;
 }
@@ -34,7 +34,7 @@ a:hover {
 }
 
 #mono {
-    width: 95px;
+    width: 85px;
     height: auto;
     position: fixed;
     top: 0px;
@@ -45,7 +45,7 @@ a:hover {
 .home {
     font-family: 'Lora', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     position: fixed;
     top: 0;
     right: 5px;
@@ -57,9 +57,9 @@ a:hover {
 .about {
     font-family: 'Lora', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     position: fixed;
-    top: 60px;
+    top: 50px;
     right: 5px;
     margin: 50px;
     padding: 5px;
@@ -72,9 +72,9 @@ a:hover {
 .work {
     font-family: 'Lora', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     position: fixed;
-    top: 120px;;
+    top: 100px;;
     right: 5px;
     margin: 50px;
     padding: 5px;
