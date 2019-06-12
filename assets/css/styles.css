@@ -156,6 +156,22 @@ a:hover {
     height: auto;
 }
 
+#plant {
+    display: inline-block;
+    width: 350px;
+    height: auto;
+}
+
+#rockw1 {
+    width: 700px;
+    height: auto;
+}
+
+#chala1 {
+    width: 700px;
+    height: auto;
+}
+
 #apimov {
     display: block;
     width: 700px;
@@ -163,6 +179,33 @@ a:hover {
     border-style: solid;
     border-width: 1px;
     border-color: black;
+}
+
+#cka {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 700px;
+    height: auto;
+}
+
+#postcal {
+    width: 350px;
+    height: auto;
+}
+
+#alphabet {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 350px;
+    height: auto;
+}
+
+#flatiron {
+    width: 700px;
+    height: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -194,8 +237,36 @@ a:hover {
         width: 90vw;;
         height: auto;
     }
+    #chala1 {
+        width: 90vw;
+        height: auto;
+    }
     #apimov {
         width: 90vw;;
+        height: auto;
+    }
+    #cka {
+        width: 90vw;
+        height: auto;
+    }
+    #alphabet {
+        width: 90vw;
+        height: auto;
+    }
+    #flatiron {
+        width: 90vw;
+        height: auto;
+    }
+    #postcal {
+        width: 90vw;
+        height: auto;
+    }
+    #rockw1 {
+        width: 90vw;
+        height: auto;
+    }
+    #plant {
+        width: 90vw;
         height: auto;
     }
   }
