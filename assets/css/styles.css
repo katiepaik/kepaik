@@ -15,7 +15,29 @@ a:visited {
 }
 
 a:hover {
-    color: #91c6f7;
+    text-decoration: line-through;
+}
+
+.more {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.xout {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    position: fixed;
+    top: 0;
+    right: 5px;
+    margin: 25px;
+    padding: 5px;
+}
+
+.xout:hover {
+    cursor: pointer;
 }
 
 .barrier {
@@ -28,8 +50,8 @@ a:hover {
 }
 
 .name {
-    font-family: 'Lora', serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 1em;
     position: fixed;
     top: 0;
@@ -39,7 +61,7 @@ a:hover {
 }
 
 .name:hover {
-    color: #1c1c1e;
+    text-decoration: line-through;
 }
 
 #mono {
@@ -52,8 +74,8 @@ a:hover {
 }
 
 .about {
-    font-family: 'Lora', serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 1em;
     position: fixed;
     top: 0;
@@ -63,60 +85,26 @@ a:hover {
 }
 
 .about:hover {
-    color: #91c6f7;
+    text-decoration: line-through;
 }
 
 .work {
-    font-family: 'Lora', serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 1em;
     position: fixed;
     top: 0;
-    right: 75px;
+    right: 100px;
     margin: 25px;
     padding: 5px;
 }
 
 .work:hover {
-    color: #91c6f7;
+    text-decoration: line-through;
 }
 
 #selected {
-    color: #91c6f7;
-}
-
-.social {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -120px;
-}
-
-#mail {
-    position: relative;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
-}
-
-#ig {
-    position: relative;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
-}
-
-#linkedin {
-    position: relative;
-    margin: 25px;
-    width: 30px;
-    height: auto;
-    opacity: 0.35;
-    filter: alpha(opacity=50);
+    text-decoration: line-through;
 }
 
 .conwrapper {
@@ -128,11 +116,16 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #conpreview {
     display: inline-block;
     margin: 25px;
+}
+
+#conpreview:hover {
+    cursor: pointer;
 }
 
 .tydescription {
@@ -157,8 +150,7 @@ a:hover {
 }
 
 #plant {
-    display: inline-block;
-    width: 350px;
+    width: 475px;
     height: auto;
 }
 
@@ -195,12 +187,11 @@ a:hover {
 }
 
 #alphabet {
-    display: inline-block;
+    width: 350px;
+    height: auto;
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    width: 350px;
-    height: auto;
 }
 
 #flatiron {
