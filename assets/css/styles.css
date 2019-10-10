@@ -19,10 +19,13 @@ a:hover {
 }
 
 .more {
+    position: fixed;
     display: none;
     width: 100vw;
     height: 100vh;
     background-color: white;
+    margin: none;
+    padding: none;
 }
 
 .xout {
@@ -107,24 +110,16 @@ a:hover {
     text-decoration: line-through;
 }
 
-.conwrapper {
-    background: #fcfcfc;
-    margin-top: 5em;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 5em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 #conpreview {
     display: inline-block;
     margin: 25px;
 }
 
 #conpreview:hover {
+    cursor: pointer;
+}
+
+#mono:hover {
     cursor: pointer;
 }
 
@@ -137,36 +132,55 @@ a:hover {
 }
 
 #topo {
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    width: 350px;
+    width: 25%;
     height: auto;
 }
 
 #nj1 {
-    width: 700px;
+    position: absolute;
+    top: 55vh;
+    left: 45vw;
+    width: 45%;
     height: auto;
 }
 
 #plant {
-    width: 475px;
+    z-index: -5;
+    position: absolute;
+    top: 220vh;
+    left: 15vw;
+    width: 27%;
     height: auto;
 }
 
 #rockw1 {
-    width: 700px;
+    position: absolute;
+    top: 275vh;
+    right: 10vw;
+    width: 56%;
     height: auto;
 }
 
 #chala1 {
-    width: 700px;
+    position: absolute;
+    top: 350vh;
+    right: 35vw;
+    width: 53%;
     height: auto;
 }
 
 #apimov {
+    position: absolute;
+    top: 115vh;
+    left: 20vw;
     display: block;
-    width: 700px;
+    width: 50%;
     height: auto;
     border-style: solid;
     border-width: 1px;
@@ -174,20 +188,29 @@ a:hover {
 }
 
 #cka {
+    position: absolute;
+    top: 175vh;
+    left: 40vw;
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    width: 700px;
+    width: 45%;
     height: auto;
 }
 
 #postcal {
-    width: 350px;
+    position: absolute;
+    top: 440vh;
+    left: 20vw;
+    width: 28%;
     height: auto;
 }
 
 #alphabet {
-    width: 350px;
+    position: absolute;
+    top: 410vh;
+    right: 20vw;
+    width: 28%;
     height: auto;
     border-style: solid;
     border-width: 1px;
@@ -195,8 +218,85 @@ a:hover {
 }
 
 #flatiron {
-    width: 700px;
+    position: absolute;
+    top: 525vh;
+    left: 35vw;
+    width: 30%;
     height: auto;
+    margin-bottom: 50px;
+}
+
+.desc {
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    max-width: 370px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 500;
+    line-height: 1.45em;
+}
+
+#subtext {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+}
+
+#profilepic {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    top: 30%;
+    left: 28%;
+}
+
+.linked {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    line-height: 4;
+    max-width: none;
+    position: absolute;
+    top: 63%;
+    right: 29%;
+}
+
+.wavy {
+    z-index: -10;
+    height: 90vh;
+    width: auto;
+    position: fixed;
+    top: -10%;
+    transform: rotate(90deg);
+}
+
+.wavy2 {
+    z-index: -10;
+    height: 90vh;
+    width: auto;
+    position: fixed;
+    top: 25%;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+.scrollup {
+    font-size: 2.5em;
+    position: absolute;
+    top: 580vh;
+    left: 47vw;
+    margin-bottom: 25px;
+    line-height: .5;
+}
+
+.titlelinks {
+    position: absolute;
+    top: 240px;
+    left: 40vw;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -220,44 +320,106 @@ a:hover {
         top: 5px;
         left: 5px;
     }
+    .conwrapper {
+        background: #fcfcfc;
+        margin-top: 5em;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #conpreview {
+        display: inline-block;
+        margin: 25px;
+    }
     #topo {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;;
         height: auto;
     }
     #nj1 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;;
         height: auto;
     }
     #chala1 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;
         height: auto;
     }
     #apimov {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;;
         height: auto;
     }
     #cka {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;
         height: auto;
     }
     #alphabet {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;
         height: auto;
     }
     #flatiron {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;
         height: auto;
     }
     #postcal {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;
         height: auto;
     }
     #rockw1 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;
         height: auto;
     }
     #plant {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         width: 90vw;
         height: auto;
+    }
+    .scrollup {
+        font-size: 2.5em;
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-bottom: 25px;
+        line-height: .5;
     }
   }
