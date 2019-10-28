@@ -110,13 +110,23 @@ a:hover {
     text-decoration: line-through;
 }
 
+.conwrapper {
+    background: #fcfcfc;
+    width: 100vw;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
 #conpreview {
     display: inline-block;
     margin: 25px;
-}
-
-#conpreview:hover {
-    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 #mono:hover {
@@ -124,63 +134,53 @@ a:hover {
 }
 
 .tydescription {
-    font-family: 'Lora', serif;
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
+#details {
+    display: inline-block;
+    font-family: 'Lora', serif;
+    font-size: .8em;
+    font-weight: 400;
+    max-width: 650px;
+    line-height: 1.5;
+}
+
 #topo {
-    position: absolute;
-    top: 20vh;
-    left: 15vw;
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    width: 25%;
+    width: 30%;
     height: auto;
 }
 
 #nj1 {
-    position: absolute;
-    top: 55vh;
-    left: 45vw;
-    width: 45%;
+    width: 55%;
     height: auto;
 }
 
 #plant {
-    z-index: -5;
-    position: absolute;
-    top: 220vh;
-    left: 15vw;
-    width: 27%;
+    width: 45%;
     height: auto;
 }
 
 #rockw1 {
-    position: absolute;
-    top: 275vh;
-    right: 10vw;
-    width: 56%;
+    width: 55%;
     height: auto;
 }
 
 #chala1 {
-    position: absolute;
-    top: 350vh;
-    right: 35vw;
-    width: 53%;
+    width: 55%;
     height: auto;
 }
 
 #apimov {
-    position: absolute;
-    top: 115vh;
-    left: 20vw;
-    display: block;
-    width: 50%;
+    width: 55%;
     height: auto;
     border-style: solid;
     border-width: 1px;
@@ -188,9 +188,6 @@ a:hover {
 }
 
 #cka {
-    position: absolute;
-    top: 175vh;
-    left: 40vw;
     border-style: solid;
     border-width: 1px;
     border-color: black;
@@ -199,18 +196,12 @@ a:hover {
 }
 
 #postcal {
-    position: absolute;
-    top: 440vh;
-    left: 20vw;
-    width: 28%;
+    width: 30%;
     height: auto;
 }
 
 #alphabet {
-    position: absolute;
-    top: 410vh;
-    right: 20vw;
-    width: 28%;
+    width: 30%;
     height: auto;
     border-style: solid;
     border-width: 1px;
@@ -218,12 +209,8 @@ a:hover {
 }
 
 #flatiron {
-    position: absolute;
-    top: 525vh;
-    left: 35vw;
     width: 30%;
     height: auto;
-    margin-bottom: 50px;
 }
 
 .desc {
@@ -323,8 +310,6 @@ a:hover {
     .conwrapper {
         background: #fcfcfc;
         margin-top: 5em;
-        margin-left: 50px;
-        margin-right: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
