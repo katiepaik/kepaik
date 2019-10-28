@@ -15,7 +15,7 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 .more {
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .name:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 #mono {
@@ -88,7 +88,7 @@ a:hover {
 }
 
 .about:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 .work {
@@ -103,11 +103,11 @@ a:hover {
 }
 
 .work:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 #selected {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 .conwrapper {
