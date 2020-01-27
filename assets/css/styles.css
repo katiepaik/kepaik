@@ -227,6 +227,7 @@ a:hover {
     font-size: .8em;
     font-weight: 500;
     line-height: 1.45em;
+    background-color: #fcfcfc;
 }
 
 #subtext {
@@ -251,6 +252,7 @@ a:hover {
     position: absolute;
     top: 63%;
     right: 29%;
+    background-color:#fcfcfc;
 }
 
 .copyright {
@@ -344,7 +346,7 @@ a:hover {
         top: auto;
         left: auto;
         right: auto;
-        width: 90vw;;
+        width: 90vw;
         height: auto;
     }
     #goose {
@@ -352,7 +354,7 @@ a:hover {
         top: auto;
         left: auto;
         right: auto;
-        width: 90vw;;
+        width: 90vw;
         height: auto;
     }
     #nj1 {
@@ -360,7 +362,7 @@ a:hover {
         top: auto;
         left: auto;
         right: auto;
-        width: 90vw;;
+        width: 90vw;
         height: auto;
     }
     #chala1 {
@@ -376,7 +378,7 @@ a:hover {
         top: auto;
         left: auto;
         right: auto;
-        width: 90vw;;
+        width: 90vw;
         height: auto;
     }
     #cka {
@@ -439,7 +441,17 @@ a:hover {
         position: absolute;
         top: 31%;
         left: 10%;
-        max-width: 370px;
+        max-width: 310px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .8em;
+        font-weight: 500;
+        line-height: 1.45em;
+    }
+    .linked {
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        max-width: 130px;
         font-family: 'Montserrat', sans-serif;
         font-size: .8em;
         font-weight: 500;
