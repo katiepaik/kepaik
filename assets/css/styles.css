@@ -159,6 +159,11 @@ a:hover {
     height: auto;
 }
 
+#goose {
+    width: 55%;
+    height: auto;
+}
+
 #nj1 {
     width: 55%;
     height: auto;
@@ -248,6 +253,14 @@ a:hover {
     right: 29%;
 }
 
+.copyright {
+    font-size: 11px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+}
+
 .wavy {
     z-index: -10;
     height: 90vh;
@@ -327,6 +340,14 @@ a:hover {
         line-height: 1.5;
     }
     #topo {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 90vw;;
+        height: auto;
+    }
+    #goose {
         position: relative;
         top: auto;
         left: auto;
