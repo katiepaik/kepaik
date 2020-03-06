@@ -192,6 +192,11 @@ a:hover {
     border-color: black;
 }
 
+#ariva {
+    width: 55%;
+    height: auto;
+}
+
 #cka {
     border-style: solid;
     border-width: 1px;
@@ -374,6 +379,14 @@ a:hover {
         height: auto;
     }
     #apimov {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 90vw;
+        height: auto;
+    }
+    #ariva {
         position: relative;
         top: auto;
         left: auto;
