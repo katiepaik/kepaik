@@ -184,6 +184,11 @@ a:hover {
     height: auto;
 }
 
+#vzteller {
+    width: 55%;
+    height: auto;
+}
+
 #apimov {
     width: 55%;
     height: auto;
@@ -371,6 +376,14 @@ a:hover {
         height: auto;
     }
     #chala1 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 90vw;
+        height: auto;
+    }
+    #vzteller {
         position: relative;
         top: auto;
         left: auto;
