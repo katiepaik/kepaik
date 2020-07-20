@@ -159,6 +159,11 @@ a:hover {
     height: auto;
 }
 
+#pigo {
+   width: 55%;
+   height: auto;
+}
+
 #goose {
     width: 55%;
     height: auto;
@@ -352,6 +357,14 @@ a:hover {
         line-height: 1.5;
     }
     #topo {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 90vw;
+        height: auto;
+    }
+    #pigo {
         position: relative;
         top: auto;
         left: auto;
